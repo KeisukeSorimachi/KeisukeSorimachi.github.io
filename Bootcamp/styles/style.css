@@ -1,0 +1,26 @@
+body {
+  /* background-image: url("buddy2.jpeg"); */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat; */
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-size: 500px 600px; */
+/* background-position: left top; */
+/* background-position: left center; */
+/* background-position: left bottom; */
+/* background-position: center top; */
+/* background-position: center center; */
+/* background-position: center bottom; */
+/* background-attachment: scroll; */
+/* background-attachment: fixed; */
+/* background: blue url('buddy2.jpeg') no-repeat fixed center center; */
+}
+
+table, th, td {
+border: 1px solid black;
+}
+p {
+  font-size: 50px;
+}

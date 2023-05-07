@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empty Cells</title>
+  <style>
+   .hidecells{
+       empty-cells: hide;
+   }
+   .showcells{
+       empty-cells: show;
+       border-collapse: separate;
+       border-spacing: 20px 10px;
+       background-color: ;
+   }
+    .box1{
+      background-color: red;
+      width: 50%;
+      border: 10px solid green;
+      padding: 10px;
+    }
+    .box2{
+      background-color: blue;
+      width: 40%;
+      border: 10px solid green;
+      padding: 20px;
+      margin-top: 100px;
+    }
+    .box3{
+      background-color: rgb(255, 0, 170);
+      width: 30%;
+      border: 10px solid green;
+      padding: 30px;
+    }
+  </style>
+  
+</head>
+<body>
+  <table border="1" class="hidecells">
+
+    <tr>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td></td>
+    </tr>
+  </table>
+
+  <table border="1" class="showcells">
+
+    <tr>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td></td>
+    </tr>
+  </table>
+
+<h2>Box Model</h2>
+
+<div class="box1">Content 1</div>
+<p class="box2">Content 2</p>
+<h5 class="box3">Content 3</h5>
+
+</body>
+</html>

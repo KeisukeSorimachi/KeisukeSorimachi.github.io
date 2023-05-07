@@ -1,0 +1,18 @@
+h3 {
+  background-color: yellow;
+}
+/* universal */
+* {
+  color: blue
+}
+
+p.paragraph1 {
+  background-color: red;
+}
+.paragraph1{
+background-color: black;
+}
+
+#IDparagraph{
+background-color: orange;
+}
